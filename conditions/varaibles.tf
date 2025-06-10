@@ -38,3 +38,6 @@ variable "sg_tags" {
     Name ="allow_all"
  }
 }
+variable "environment" {
+  default = "prod"
+}
