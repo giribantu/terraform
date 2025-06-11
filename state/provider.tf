@@ -9,7 +9,7 @@ terraform {
     bucket = "giri-remote-state"
     key    = "remote-state"
     region = "us-east-1"
-        encrypt      = true  
+    encrypt      = true  
     use_lockfile = true
   }
 }
